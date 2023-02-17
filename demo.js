@@ -4,7 +4,12 @@ const callbackFuntion = (data) => {
     console.log('callbackFuntion data: ', data)
 }
 
-export async function onTestData() {
+export function checkMe() {
+    console.log('check me')
+
+}
+
+async function onTestData() {
     console.log('on testtttt')
     const languageId = 'change-langer'
     const cookieName = 'ggj_lang'
